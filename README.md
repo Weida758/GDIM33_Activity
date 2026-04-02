@@ -9,7 +9,8 @@
 
 
 ### Activity 2
-
+Vampire Survivor Like game breakdown
+<img width="1628" height="1171" alt="image" src="https://github.com/user-attachments/assets/1d79b31a-2602-4395-875e-aed7458cf8a7" />
 
 
 ## W2
