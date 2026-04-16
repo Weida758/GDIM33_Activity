@@ -14,4 +14,14 @@ Vampire Survivor Like game breakdown
 
 
 ## W2
-Write your W2 Devlog here.
+### Activity 1
+<img width="1633" height="758" alt="GDIM 33 Game Breakdown" src="https://github.com/user-attachments/assets/73dd3272-8c05-4040-9223-88aaf1ced1a8" />
+
+
+### Activity 2
+  1. Saving the string for the event name as a scene variable is beneficial because you only have to edit the variable to apply changes to all nodes that utilize the variable. Aside from that, it also prevents errors by avoiding the case where you typed out the string differently at one node.
+  2. Using Debug.Log at the custom event helped me notice that the event isn't being triggered and something is wrong with my Walrus graph is trying to trigger the event in the Walrus game object, while the event was defined in the GameController.
+  3. Yes because we want our cursor to be shown for the UI menus to show where we are clicking and disappear when we are playing the game.
+  4. Yes because my vampire survivor game can have a leveling up state where the game is paused while the player selects upgrades. 
+
+
