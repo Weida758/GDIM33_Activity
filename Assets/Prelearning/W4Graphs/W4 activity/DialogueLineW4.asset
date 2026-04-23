@@ -15,6 +15,6 @@ MonoBehaviour:
   Line: Something
   ReplyOptions:
   - line: Reply One
-    nextNode: {fileID: 0}
+    nextNode: {fileID: 11400000, guid: 76c9a3f5b4abd8f479d1264404bdeb62, type: 2}
   - line: Reply Two
-    nextNode: {fileID: 0}
+    nextNode: {fileID: 11400000, guid: 1af4a73d5df03ca4fbaa96e273404278, type: 2}
