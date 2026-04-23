@@ -5,6 +5,7 @@ public class DialogueAdvancer : MonoBehaviour
 {
     [SerializeField] private DialogueNode nextLine;
 
+
     // Button hooks up to this method
     public void ChooseDialogue ()
     {
