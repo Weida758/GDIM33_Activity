@@ -35,3 +35,8 @@ Vampire Survivor Like game breakdown
 - Enemies can spawn outside the border.
 - Everything else seems ok
 
+### Activity 2
+1. A writer would be able to add more dialogues without adding onto the code, because they can just create more DialogueLine scriptable objects and use that as dialogue lines with or without replies to form a continuous conversation by filling out the SerializedFields of the scriptable object that corresponds to the string of the dialogue line, and the reply nodes that comes after the line.
+2. Technically, there is no limit, but practically, creating the dialogues manually becomes too messy by managing scriptable objects for a game that has thousands of lines of dialogues or more, since you'll have to create a scriptable object for every single line and reply.
+3. Regenerating Nodes basically just have Unity scan the project again and register any custom class that doesn't inherit from Unity defined classes for visual scripting purposes. 
+
