@@ -13,7 +13,7 @@ Vampire Survivor Like game breakdown
 <img width="1628" height="1171" alt="image" src="https://github.com/user-attachments/assets/1d79b31a-2602-4395-875e-aed7458cf8a7" />
 
 
-## W2
+## W3
 ### Activity 1
 <img width="1633" height="758" alt="GDIM 33 Game Breakdown" src="https://github.com/user-attachments/assets/73dd3272-8c05-4040-9223-88aaf1ced1a8" />
 
@@ -24,4 +24,14 @@ Vampire Survivor Like game breakdown
   3. Yes because we want our cursor to be shown for the UI menus to show where we are clicking and disappear when we are playing the game.
   4. Yes because my vampire survivor game can have a leveling up state where the game is paused while the player selects upgrades. 
 
+
+## W4
+### Activity 1
+- In my current build, the player is able to in top down left right directions in a top down 2D environment. The player auto attacks in a radius centered at the player's body which reduces the health of enemies that are inside of that radius when the attacks happens. Enemies spawn around the player in waves separated by time intervals.
+- My playtesting goals is to see how the basic mechanics currently feel right now and to see if there are any bugs in the game.
+#### Playtesting Notes: Group is Weida Chen, Leandro, Gael Parras, Andrew Hsur, Lillian Su
+- Players wasn't sure what was supposed to be going on at first because the first wave of enemy doesn't spawn immediately.
+- Players wasn't sure where the attack is since there is no visual for the attack yet.
+- Enemies can spawn outside the border.
+- Everything else seems ok
 
