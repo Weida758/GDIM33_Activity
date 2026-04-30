@@ -40,3 +40,14 @@ Vampire Survivor Like game breakdown
 2. Technically, there is no limit, but practically, creating the dialogues manually becomes too messy by managing scriptable objects for a game that has thousands of lines of dialogues or more, since you'll have to create a scriptable object for every single line and reply.
 3. Regenerating Nodes basically just have Unity scan the project again and register any custom class that doesn't inherit from Unity defined classes for visual scripting purposes. 
 
+## W5
+### Activity 1
+- Implementing the usage of scriptable objects inside my game
+1. Think about what kind of things and features in the game can benefit from using a scriptable objects. The conclusion is that objects that have shared functionalities but need different stats would benefit from scriptable objects. This would be enemies in my game.
+2. Then, think about what kind of stats an enemy in my game should have? This would attack damage, health, knockback force, attack interaval, and speed.
+3. With that in mind, I can now create a scriptable object script, EnemyStat, which has these public data variables that I can create various assets of.
+
+### Activity 2
+
+
+Today I implemented the idle and walk animations with working animation state transitionings for my player. I also set up the stats system for my enemies to create a scalable system to creating more enemies with different kind of data. 
