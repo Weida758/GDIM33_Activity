@@ -47,7 +47,20 @@ Vampire Survivor Like game breakdown
 2. Then, think about what kind of stats an enemy in my game should have? This would attack damage, health, knockback force, attack interaval, and speed.
 3. With that in mind, I can now create a scriptable object script, EnemyStat, which has these public data variables that I can create various assets of.
 
+4. 
 ### Activity 2
 
+- Today I implemented the idle and walk animations with working animation state transitionings for my player. I also set up the stats system for my enemies to create a scalable system to creating more enemies with different kind of data. 
 
-Today I implemented the idle and walk animations with working animation state transitionings for my player. I also set up the stats system for my enemies to create a scalable system to creating more enemies with different kind of data. 
+## W6
+### Activity 1
+- There isn't that much difference between this build and the previous build, the main difference being that animations are fully implemented now for the enemy as well, and the player will flip accordingly based on the direction where they are moving in now. I also started using scriptable objects for the stats of the attacks in the game.
+- [My Itch Build](https://weida345.itch.io/playtest-wk6)
+- My playtesting goals is to make sure the animations are looking smoothly and also that the player isn't running into issues with facing the wrong side while moving.
+- Playtesting Notes:
+- The playtester likes the visual for the attack
+- The playtester are less confused initially due to a shorter enemy wave interval
+- There was nothing wrong with player's flipping logic.
+- There should be a wave count
+- There should be more abilities and a level up system implemented next
+
