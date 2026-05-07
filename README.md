@@ -57,10 +57,18 @@ Vampire Survivor Like game breakdown
 - There isn't that much difference between this build and the previous build, the main difference being that animations are fully implemented now for the enemy as well, and the player will flip accordingly based on the direction where they are moving in now. I also started using scriptable objects for the stats of the attacks in the game.
 - [My Itch Build](https://weida345.itch.io/playtest-wk6)
 - My playtesting goals is to make sure the animations are looking smoothly and also that the player isn't running into issues with facing the wrong side while moving.
-- Playtesting Notes:
+
+  
+  Playtesting Notes:
 - The playtester likes the visual for the attack
 - The playtester are less confused initially due to a shorter enemy wave interval
 - There was nothing wrong with player's flipping logic.
 - There should be a wave count
 - There should be more abilities and a level up system implemented next
+
+### Activity 2
+1. Since the RGB values are in the range of 0-1, multiplying them guarantees a number smaller or equal to the original value, and a value closer to 0 for the RGB channels results in a darker color. The color also becomes less saturated since the RGB values will be clamped towards the lower range of the 0-1 possible values.
+2. The resulting value would be more translucent, because the lesser the alpha value, the more transparent the material is. And since multiplying alpha values which range from 0-1 will guarantee a result <= 0, the alpha value would almost always become smaller, which leads to a more translucent value.
+3. The shader gets the UV values from the mesh itself. The vertices of the mesh store texture coordinates which is the UV map.
+4. Yes, because being able to manipulate colors with math means that there are algorthmic ways to achieve the effects we want. 
 
