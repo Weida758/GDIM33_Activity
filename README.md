@@ -72,3 +72,8 @@ Vampire Survivor Like game breakdown
 3. The shader gets the UV values from the mesh itself. The vertices of the mesh store texture coordinates which is the UV map.
 4. Yes, because being able to manipulate colors with math means that there are algorthmic ways to achieve the effects we want. 
 
+## W7
+1. The vertex color data comes from the shiba's mesh itself.
+2. The colors on the shiba from step 3 was blended at the edges of different regions of color because color is only stored at the vertex points.
+3. Texture is essentially putting an image onto the mesh, which will naturally be more detailed for this case because of the amount of pixels existing on the texture, while the amount of detail from vertex color depends on the amount of vertices. Vertex color seems useful for coloring meshes that don't need so much detail, and that should save memory.
+6. The normal of the surface is pointing at opposite direction of the directional light, and the dot product produces a negative value whenever two vectors point at opposite directions, which inverts the result.
