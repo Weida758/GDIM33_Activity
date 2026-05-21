@@ -92,4 +92,7 @@ Vampire Survivor Like game breakdown
     
 
 ### Activity 2
-
+1. The fraction node takes only the decimal portion of any value, and paired with time, it creates a loop of values between 0 - 0.99. Using this value and adding to the UV causes an sliding effect that appears and disappears, looping infinitely since we are constantly moving the UV coordinates.
+2. Black has an RGB value of 0, so adding it to MainTex does nothing. This is to prevent making the object extremely bright even when no shine texture is attached.
+3. The MainTex Texture 2D field of the ShinySprite shader is automatically overridden by the sprite assigned in the sprite renderer of the object, so the building texture assigned in the shader graph only serves as a preview and doesn't affect the objects globally if they have a sprite attached in the sprite renderer.
+4. Multiplying the fraction of the time instead of the time before the fraction will cause inconsistent wrapping of the UV values. The speed would directly modify the UV offset distance rather slow it down, because it is multiplying the output that is being added to the UV. Multiplying before the fraction node ensures that the range consistently remain within 0-1 and the UV offset is linearly wrapping around. 
