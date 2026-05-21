@@ -81,7 +81,7 @@ Vampire Survivor Like game breakdown
 ## W8
 ### Activity 1
   1. Since milestone2, I have added a looping background music as well as a new enemy that spawns after some time of fighting against the weaker enemy. This mimics the Vampire Survivor mechanics of having stronger and stronger enemies spawning after some wave, to keep the game balanced.
-  2. (My Itch Build)[https://weida345.itch.io/wk8-playtest]
+  2. [My Itch Build](https://weida345.itch.io/wk8-playtest)
   3. My playtesting goals is to see if the background music currently fits with the vibe of the game, and also whether or not the stronger enemy feels balanced at its current state.
  
   4. Playtesting notes:
