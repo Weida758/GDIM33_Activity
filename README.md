@@ -102,3 +102,7 @@ Vampire Survivor Like game breakdown
 
 1. The game that our table chose was Blasphemous and also Terraria
 2. We looked at the dash effect on the MC of Blasphemous and how it creates essentially a few afterimages of the main character in different colors. Terraria shows a post processing effect of our screen becoming gradient red on the edges when our healht is low.
+
+### Activity 2
+<img width="2871" height="1397" alt="image" src="https://github.com/user-attachments/assets/c93b1232-e21a-4a57-9036-e5ae677a3ee7" />
+The shader graph that I worked on to create a shiny material for my experience prefabs. This is something I started on a few days back and I fix the problem of it being a static shine versus a pulsing shine. 
